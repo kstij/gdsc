@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="-1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Google Developer Student Clubs - Yonsei Seoul Chapter"
+    />
+    
+    <!-- Keywords -->
+    <meta name="keywords" content="GDSC, GDG, Google Developer Student Clubs, Yonsei, 연세대학교, 연세대, GDSC 연세, Solution Challenge, 솔루션 챌린지" />
+    <meta lang="en" name="keywords" content="GDSC, GDG, Google Developer Student Clubs, Yonsei, 연세대학교, 연세대, GDSC 연세, Solution Challenge, 솔루션 챌린지" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="GDSC Yonsei">
+    <meta property="og:site_name" content="GDSC Yonsei">
+    <meta property="og:url" content="https://gdsc-ys.github.io">
+    <meta property="og:description" content="GDSC Yonsei">
+    <meta property="og:image" content="%PUBLIC_URL%/og_image.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="GDSC Yonsei">
+    <meta name="twitter:title" content="gdsc-ys.github.io">
+    <meta name="twitter:description" content="GDSC Yonsei">
+    
+    <!-- Icon -->
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="%PUBLIC_URL%/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="%PUBLIC_URL%/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="%PUBLIC_URL%/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="%PUBLIC_URL%/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="%PUBLIC_URL%/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="%PUBLIC_URL%/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="%PUBLIC_URL%/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon-180x180.png" />
+    <meta name="msapplication-TitleColor" content="#ffffff" />
+    <meta name="theme-color" content="#000000" />
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-MRTFW4D');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google Search Console -->
+    <meta name="google-site-verification" content="n2FqvRpZRWrtyJCEWcbTI9bSPaLyfvOz9h4Ds4UfhcM" />
+
+    <!-- Naver Site Verification -->
+    <meta name="naver-site-verification" content="101cee5e66b4e2a82e0f341c9b560cd1bb6c3acb" />
+
+    <!-- Mobile viewport support -->
+    <script>
+      const setVh = () => {
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+      }
+
+      setVh();
+      window.addEventListener('resize', setVh);
+    </script>
+
+    <!-- Start Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // https://github.com/rafrex/spa-github-pages
+      // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
+      // ----------------------------------------------------------------------
+      // This script checks to see if a redirect is present in the query string
+      // and converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new url.
+      // When the single page app is loaded further down in this file,
+      // the correct url will be waiting in the browser's history for
+      // the single page app to route accordingly.
+      (function (l) {
+        if (l.search) {
+          var q = {};
+          l.search
+            .slice(1)
+            .split("&")
+            .forEach(function (v) {
+              var a = v.split("=");
+              q[a[0]] = a.slice(1).join("=").replace(/~and~/g, "&");
+            });
+          if (q.p !== undefined) {
+            window.history.replaceState(
+              null,
+              null,
+              l.pathname.slice(0, -1) +
+                (q.p || "") +
+                (q.q ? "?" + q.q : "") +
+                l.hash
+            );
+          }
+        }
+      })(window.location);
+    </script>
+    <!-- End Single Page Apps for GitHub Pages -->
+    <script>
+      localStorage.removeItem('prev');
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <div style="display: flex; justify-content: center; align-items: center">
+        Enable JS for full experience of gdsc-ys.github.io!
+      </div>
+    </noscript>
+    <div id="root"></div>
+  </body>
+</html>
